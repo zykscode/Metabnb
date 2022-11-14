@@ -29,7 +29,7 @@ function Navs() {
   },
   ]
   return (
-    <div className='flex items-center justify-between w-full'>
+    <div className='flex items-center justify-evenly 2xl:gap-12 gap-8 w-full'>
         {navs.map(nav=>{
             if(nav.enabled){
              return <Link className='navText' key={nav.name} to={nav.link}>

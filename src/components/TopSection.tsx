@@ -8,7 +8,7 @@ type Props = {};
 
 const TopSection = (props: Props) => {
   return (
-    <div className='w-full items-center mb-[64px] lg:gap-[100px] gap-5 justify-center flex flex-col lg:flex-row'>
+    <div className='w-full items-center mb-[64px] mt-4 lg:gap-[100px] gap-5 justify-center flex flex-col flex-col-reverse lg:flex-row'>
       <div className='max-w-[646px] gap-12 flex flex-col'>
         <h3 className='generalText2 text-[#434343]'>
           Rent a <span className='generalText1 text-[#A02279] '>Place</span>{" "}
@@ -28,7 +28,7 @@ const TopSection = (props: Props) => {
             value=''
             disabled
           />
-          <div className='cursor-pointer buttonBg flex justify-center items-center min-w-[230px] h-[54px] rounded'>
+          <div className='cursor-pointer buttonBg flex justify-center items-center w-full max-w-[230px] h-[54px] rounded'>
             <span className='text-white buttonText'>search</span>
           </div>
         </div>

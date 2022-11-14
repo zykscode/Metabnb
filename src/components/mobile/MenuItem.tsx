@@ -26,11 +26,11 @@ const variants = {
 
 export default function MenuItem({ enabled, link, name }: Props) {
   return (
-    <motion.div variants={variants} className='flex  gap-[27px]'>
+    <motion.div variants={variants} className='flex  gap-[30px]'>
       {enabled?
       <Link to={link}>
-        <div className='navText '>{name}</div>
-      </Link>:<div className='navText '>{name}</div>}
+        <div className='navText1 text-4xl '>{name}</div>
+      </Link>:<div className='navText1 text-4xl '>{name}</div>}
       
     </motion.div>
   );

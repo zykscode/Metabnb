@@ -13,12 +13,17 @@ type Props = {}
 const Header = (props: Props) => {
   return (
     <div className=''>
-      <div className="flex relative  justify-between gap-4 items-center lg:hidden">
+      <div className="flex relative  justify-between gap-4 items-center ">
         <Logo/>
+        <div className="block lg:hidden">
         <Toggle/>
+        </div>
+        <div className="hidden lg:flex ">
+        <Navs/>
+        </div>
         <Connect/>
       </div>
-      <div className="hidden lg:relative lg:flex lg:justify-between lg:items-center">
+      {/* <div className="hidden lg:relative lg:flex lg:justify-between lg:items-center">
         <div className="w-full">
           <SVGComponent/>
         </div>
@@ -26,7 +31,7 @@ const Header = (props: Props) => {
         <div className="w-full flex bg-green-400 justify-end">
         <Connect/>
       </div>
-      </div>
+      </div> */}
     </div>
   )
 }
