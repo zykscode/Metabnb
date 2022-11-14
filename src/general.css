@@ -1,0 +1,28 @@
+.connectButton{
+max-height: 40px;
+max-width: 170px;
+border-radius: 10px;
+background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+
+}
+
+.connectButtonText{
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.menuBg{
+    background: linear-gradient(91.47deg, #DC3E88 18.25%, #B840AE 43.34%, #843FE8 78.18%)
+}
+.navText{
+font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+color: #434343;
+
+}
