@@ -12,7 +12,7 @@ import Place from './Layouts/Place';
 function App() {
   return (
     <Router>
-    <div className="App py-2 md:px-4 px-2 lg:px-[100px] ">
+    <div className="App overflow-clip py-2 md:px-4 px-2 lg:px-[100px] ">
         <Header/>
 
       

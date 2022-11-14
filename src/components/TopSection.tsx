@@ -8,7 +8,7 @@ type Props = {};
 
 const TopSection = (props: Props) => {
   return (
-    <div className='w-full items-center mb-[64px] mt-4 lg:gap-[100px] gap-5 justify-center flex flex-col flex-col-reverse lg:flex-row'>
+    <div className='w-full items-center mb-[64px] mt-4 lg:gap-[100px] gap-5 justify-center flex flex-col-reverse lg:flex-row'>
       <div className='max-w-[646px] gap-12 flex flex-col'>
         <h3 className='generalText2 text-[#434343]'>
           Rent a <span className='generalText1 text-[#A02279] '>Place</span>{" "}
@@ -33,14 +33,22 @@ const TopSection = (props: Props) => {
           </div>
         </div>
       </div>
-      <div className='h-[459px] shrink-0 flex gap-2'>
-        <div className='w-full gap-2 bottom-0 justify-end  flex flex-col'>
-          <img alt='2' src={Img2} />
-          <img alt=' 54 ' src={Img4} />
+      <div className='Rent_right shrink-0'>
+        <div className='Rent_cont1'>
+          <div className='Rent_image-container'>
+            <img src={Img2} alt='pic1' />
+          </div>
+          <div className='Rent_image-container'>
+            <img src={Img4} alt='pic2' />
+          </div>
         </div>
-        <div className='w-full gap-2 flex flex-col'>
-          <img alt='53 is here' src={Img1} />
-          <img alt='nice' src={Img3} />
+        <div className='Rent_cont2__33S6M'>
+          <div className='Rent_image-container'>
+            <img src={Img1} alt='pic3' />
+          </div>
+          <div className='Rent_image-container'>
+            <img src={Img3} alt='pic4' />
+          </div>
         </div>
       </div>
     </div>

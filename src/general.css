@@ -36,6 +36,10 @@
     color: #434343;
 }
 
+.bgHere{
+    background: linear-gradient(91.47deg, #fcb4d6 18.25%, #ee85e5 43.34%, #aa76f8 78.18%);
+}
+
 .navText1 {
     font-weight: 400;
     letter-spacing: 0em;

@@ -45,7 +45,7 @@ export const Navigation = (props: Props) => {
   return (
     <motion.div
       variants={variants}
-      className="absolute overflow-clip flex h-screen w-full bg-green-400 flex-col gap-[50px] left-0 justify-center items-center "
+      className="absolute overflow-clip -top-4 flex h-screen w-full bgHere flex-col gap-[50px] left-0 justify-center items-center "
     >
       {navs.map((icon, i) => (
         <MenuItem

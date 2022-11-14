@@ -1,4 +1,6 @@
 import React from 'react'
+import settings from '../assets/images/setting.svg'
+import Aspire from '../components/Aspire'
 
 type Props = {}
 
@@ -18,12 +20,13 @@ const Place = (props: Props) => {
     <div className="Location_box">
       Location
       <img
-        src="/static/media/setting.1ad45f3268b2970899dd50fd7d8eca9f.svg"
+        src={settings}
         alt="settings"
       />
     </div>
   </div>
 </div>
+<Aspire/>
 
     </div>
   )

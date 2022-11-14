@@ -23,18 +23,39 @@ type Props = {};
 
 const Toggle = (props: Props) => {
   const [isOpen, setIsOpen] = useState(false);
+  const [navShow, setNavShow] = useState(false);
   const handleOpen = () => {
     setIsOpen(() => !isOpen);
+  };
+  const onToggleNav = () => {
+    setNavShow((status) => {
+      if (status) {
+        document.body.style.overflow = "auto";
+      } else {
+        // Prevent scrolling
+        document.body.style.overflow = "hidden";
+      }
+
+      return !status;
+    });
   };
 
   return (
     <div>
-      <motion.nav animate={isOpen ? "open" : "closed"} className='z-10' initial={false}>
+      <motion.nav
+        animate={isOpen ? "open" : "closed"}
+        className='z-10'
+        initial={false}>
         <motion.div className={` z-10  `} variants={sidebar}>
           <Navigation />
         </motion.div>
 
-        <MenuToggle toggle={handleOpen} />
+        <MenuToggle
+          toggle={() => {
+            handleOpen();
+            onToggleNav();
+          }}
+        />
       </motion.nav>
     </div>
   );
