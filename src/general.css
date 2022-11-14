@@ -6,6 +6,15 @@ background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
 
 }
 
+.inText{
+font-size: 24px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
 .connectButtonText{
 font-size: 16px;
 font-weight: 400;
@@ -24,5 +33,107 @@ line-height: 25px;
 letter-spacing: 0em;
 text-align: left;
 color: #434343;
+}
 
+.footerLinks{
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.buttonBg{
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
+
+}
+
+.buttonText{
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.footerSublinks{
+font-size: 14px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.copywright{
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color: #f7f7f7;
+}
+
+.boldText{
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.textLearn{
+background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+}
+
+.generalText1{
+font-size: 56px;
+font-weight: 700;
+line-height: 78px;
+letter-spacing: -0.02em;
+text-align: left;
+
+
+}
+.generalText3{
+  
+font-size: 56px;
+font-weight: 400;
+line-height: 78px;
+letter-spacing: -0.02em;
+text-align: left;  
+}
+
+.generalText2{
+ font-family: GT Walsheim Pro;
+font-size: 56px;
+font-weight: 700;
+line-height: 78px;
+letter-spacing: -0.02em;
+text-align: left;   
+}
+
+.nftBg{
+background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+.textNormal{
+font-size: 18px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.sectionBtm{
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+border: 1px solid #000000
 }
