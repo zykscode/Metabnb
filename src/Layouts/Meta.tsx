@@ -7,36 +7,45 @@ import ImageLast from "../components/LastHome";
 import TopSection from "../components/TopSection";
 import Sponsor from "../components/Sponsor";
 import Inspire from "../components/Inspire";
+import { Route, Routes } from "react-router-dom";
+import Connect from "../components/Connect";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 type Props = {};
 
 function Meta({}: Props) {
   return (
     <>
-      <TopSection />
-      <Sponsor/>
-      <Inspire/>
-      <div className='Nfts_nfts justify-center'>
-        <div className='Nfts_left'>
-          <h1 className=''>Metabnb NFTs</h1>
-          <p className=''>
-            Discover our NFT gift cards collection. Loyal customers gets amazing
-            gift cards which are traded as NFTs. These NFTs gives our cutomer
-            access to loads of our exclusive services.
-          </p>
+      <div className='App overflow-clip py-2 md:px-4 px-2 lg:px-[100px] '>
+        <Header />{" "}
+      
+        <TopSection />
+        <Sponsor />
+        <Inspire />
+        <div className='Nfts_nfts justify-center'>
+          <div className='Nfts_left'>
+            <h1 className=''>Metabnb NFTs</h1>
+            <p className=''>
+              Discover our NFT gift cards collection. Loyal customers gets
+              amazing gift cards which are traded as NFTs. These NFTs gives our
+              cutomer access to loads of our exclusive services.
+            </p>
 
-          <a href='/'> Learn more</a>
+            <a href='/'> Learn more</a>
+          </div>
+          <div className='Nfts_right'>
+            <div className='Nfts_imageContainer Nfts_container1'>
+              <img alt='here' src={img3} />
+            </div>
+            <div className='Nfts_imageContainer Nfts_container2'>
+              <img alt='here' src={img1} />
+            </div>
+            <div className='Nfts_imageContainer Nfts_container3'>
+              <img alt='here' className='object-contain' src={img2} />
+            </div>
+          </div>
         </div>
-        <div className='Nfts_right'>
-          <div className='Nfts_imageContainer Nfts_container1'>
-            <img alt='here' src={img3} />
-          </div>
-          <div className='Nfts_imageContainer Nfts_container2'>
-            <img alt='here' src={img1} />
-          </div>
-          <div className='Nfts_imageContainer Nfts_container3'>
-            <img alt='here' className='object-contain' src={img2} />
-          </div>
-        </div>
+        <Footer />
       </div>
     </>
   );

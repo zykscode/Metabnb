@@ -308,7 +308,7 @@ code {
     }
 }
 
-.WalletModal_walletmodal__Z8Te6 {
+.WalletModal_walletmodal {
     height: 100vh;
     left: 0;
     position: fixed;
@@ -317,14 +317,14 @@ code {
     z-index: 5
 }
 
-.WalletModal_overlay__KakKu {
+.WalletModal_overlay {
     background: rgba(64, 64, 64, .3);
     height: 100vh;
     width: 100%;
     z-index: 7
 }
 
-.WalletModal_container__xh7x4 {
+.WalletModal_container {
     background: #fff;
     border-radius: 16px;
     height: 326px;
@@ -339,7 +339,7 @@ code {
     z-index: 10
 }
 
-.WalletModal_top-section__oFuTD {
+.WalletModal_top-section {
     align-items: center;
     border-bottom: 1px solid #cfd8dc;
     display: flex;
@@ -347,7 +347,7 @@ code {
     padding: 0 30px 20px
 }
 
-.WalletModal_walletmodal__Z8Te6 h3 {
+.WalletModal_walletmodal h3 {
     color: #333;
     font-family: Red Rose, cursive;
     font-size: 24px;
@@ -355,12 +355,12 @@ code {
     line-height: 30px
 }
 
-.WalletModal_icon__9d6O- {
+.WalletModal_icon {
     cursor: pointer;
     font-size: 22px
 }
 
-.WalletModal_walletmodal__Z8Te6 p {
+.WalletModal_walletmodal p {
     color: #333;
     font-family: Red Rose, cursive;
     font-size: 16px;
@@ -376,7 +376,7 @@ code {
     padding: 0 20px
 }
 
-.WalletModal_box__\+fNDm {
+.WalletModal_box {
     align-items: center;
     background: #f8f9fa;
     border: 1px solid #cfd8dc;
@@ -386,7 +386,7 @@ code {
     padding: 10px 20px
 }
 
-.WalletModal_text__fhZ0f {
+.WalletModal_text {
     align-items: center;
     color: #000;
     display: flex;
@@ -397,23 +397,23 @@ code {
     line-height: 23px
 }
 
-.WalletModal_walletmodal__Z8Te6 img {
+.WalletModal_walletmodal img {
     height: 44px;
     width: 44px
 }
 
 @media screen and (max-width:486px) {
-    .WalletModal_container__xh7x4 {
+    .WalletModal_container {
         max-width: 95%
     }
 
-    .WalletModal_text__fhZ0f {
+    .WalletModal_text {
         font-size: 16px;
         gap: 10px;
         line-height: 23px
     }
 
-    .WalletModal_walletmodal__Z8Te6 img {
+    .WalletModal_walletmodal img {
         height: 35px;
         width: 35px
     }
